@@ -1,11 +1,11 @@
 
 
 ### How to run and install Assignment:
-
-1. Open the project in cmd or terminal.
-2. Type the command `npm install` to install the dependencies.
-3. Once dependencies are installed, type the `npm run dev` command to run the assignment.
-4. Open the localhost url mentioned on your terminal or cmd after executing the command from step 3.
+1. Clone the github repository to your local machine.
+2. Open the project path in cmd or terminal.
+3. Type the command `npm install` to install the dependencies.
+4. Once dependencies are installed, type the `npm run dev` command to run the assignment.
+5. Open the localhost url mentioned on your terminal or cmd after executing the command from step 3.
 
 ### Libraries used:
 1. `papaparse`: This library is used to convert the csv file into JSON object.
