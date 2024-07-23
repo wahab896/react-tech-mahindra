@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './App.css'
 import Dropdown from './components/Dropdown'
 import FileUploader from './components/FileUploader'
 import Heatmap from './components/Heatmap'
