@@ -23,8 +23,7 @@ function App() {
       <FileUploader onCsvParse={handleCsvParse} />
       {!!jsonData.headers.length &&
         (<><Dropdown headers={jsonData.headers} changeHeatmapValues={changeHeatmapValues} />
-          <Heatmap heatmapValues={heatmapValues} data={jsonData.data} headers={jsonData.headers}/></>)}
-      {/* {JSON.stringify(heatmapValues)} */}
+          <Heatmap heatmapValues={heatmapValues} data={jsonData.data} headers={jsonData.headers} /></>)}
     </main>
   )
 }
